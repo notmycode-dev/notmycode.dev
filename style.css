@@ -14,6 +14,7 @@
   height: 100vh;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -34,10 +35,27 @@
   -webkit-background-clip: text;
   color: transparent;
 }
+a {
+  text-decoration: none;
+}
+
+#root .connection a {
+  font-size: calc(0.3rem + 1vw);
+  color: rgb(226, 129, 216);
+  padding: 6px;
+  font-weight: bold;
+}
+
+#root .connection a:hover {
+  color: rgb(143, 143, 231);
+}
 
 @media only screen and (max-width: 767px) {
   #root #title {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: calc(0.7rem + 1vw);
+  }
+  #root .connection a {
+    font-size: calc(0.6rem + 1vw);
   }
 }
