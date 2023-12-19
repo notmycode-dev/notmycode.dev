@@ -53,9 +53,9 @@ a {
 @media only screen and (max-width: 767px) {
   #root #title {
     font-weight: bold;
-    font-size: calc(0.7rem + 1vw);
+    font-size: calc(0.8rem + 1vw);
   }
   #root .connection a {
-    font-size: calc(0.6rem + 1vw);
+    font-size: calc(0.5rem + 1vw);
   }
 }
